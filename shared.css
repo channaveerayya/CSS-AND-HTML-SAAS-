@@ -211,9 +211,11 @@ main {
         width: calc(100% - 122px);
         vertical-align: middle;
     }
+
     .toggle-button {
         display: none;
     }
+
     .main-footer__link {
         display: inline-block;
         margin: 0 1rem;
