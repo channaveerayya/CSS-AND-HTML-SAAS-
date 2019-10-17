@@ -59,7 +59,7 @@ main {
 
 .signup-form input[type="checkbox"]:checked {
   background: #2dd5fc;
-  border: #0e4f1f;
+  border: #5fcf80;
 }
 
 .signup-form input.invalid,
@@ -71,7 +71,6 @@ main {
 
 .signup-form button[type="submit"] {
   display: block;
-  margin-top: 1rem;
 }
 
 @media(min-width: 40rem) {
