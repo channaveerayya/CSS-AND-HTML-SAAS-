@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-
+:root {
+    --dark-color: #5fcf80;
+    --white: white;
+}
 * {
     box-sizing: border-box;
 }
@@ -75,7 +78,7 @@ main {
 }
 
 .main-header__brand {
-    color: #5fcf80;
+    color: var(--dark-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -110,8 +113,8 @@ main {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
+    color: var(--white);
+    border-bottom: 5px solid var(--white);
 }
 
 .main-nav__item--cta {
@@ -120,8 +123,8 @@ main {
 
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
-    color: white;
-    background: #5fcf80;
+    color: var(--white);
+    background: var(--dark-color);
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
@@ -130,8 +133,8 @@ main {
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
-    color: #5fcf80;
-    background: white;
+    color: var(--dark-color);
+    background: var(--white);
     border: none;
 }
 
@@ -159,7 +162,7 @@ main {
 }
 
 .main-footer__link a {
-    color: white;
+    color: var(--white);
     text-decoration: none;
 }
 
@@ -174,7 +177,7 @@ main {
     z-index: 101;
     top: 0;
     left: 0;
-    background: white;
+    background: var(--white);
     width: 80%;
     height: 100vh;
 }
@@ -200,10 +203,10 @@ main {
 }
 
 .button {
-    background: #5fcf80;
-    color: white;
+    background: var(--dark-color);
+    color: var(--white);
     font: inherit;
-    border: 1.5px solid #5fcf80;
+    border: 1.5px solid var(--dark-color);
     padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -212,8 +215,8 @@ main {
 
 .button:hover,
 .button:active {
-    background: white;
-    color: #5fcf80;
+    background: var(--white);
+    color: var(--dark-color);
 }
 
 .button:focus {
